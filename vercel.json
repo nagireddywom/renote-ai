@@ -3,7 +3,7 @@
   "builds": [
     {
       "src": "package.json",
-      "use": "@vercel/node-builder",
+      "use": "@vercel/node",
       "config": {
         "installCommand": "npm install",
         "buildCommand": "CI=false npm run build"
